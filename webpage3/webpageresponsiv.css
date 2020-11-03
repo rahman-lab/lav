@@ -1,0 +1,170 @@
+@media screen and (max-width:980px){
+    header{
+
+    }
+   .photo{
+       width: 100%;
+       margin: auto;
+       
+   }
+   .main{
+       
+       height: auto;
+       background-color: cyan;
+   
+     
+   }
+   .main .main1{
+       width: 100%;
+       margin: auto;
+       height: auto;
+       line-height: 30px;
+       background-color: rgba(216, 230, 216, 0.774);
+   }
+   .main2{
+       width: 100%;
+       margin: auto;
+   }
+
+
+}
+@media screen and (max-width:768px){
+   header{
+       overflow: hidden;
+      margin-left: 0px;
+      height: 80vh;
+   }
+   .nev .logo{
+       width: 30%;
+   }
+   .menu{
+       width: 70%;
+   }
+   .photo{
+     width:100%;
+     margin: auto;
+     
+   }
+   .main{
+    height: auto;
+    width: 100%;
+    background-color: rgb(225, 233, 235);
+}
+.main .main1{
+    background-color:white;
+    direction:ltr;
+width: 100%;
+height: auto;
+margin: auto;
+padding:0;
+flex-wrap: wrap;
+color: red;
+
+}
+
+.main1 p{
+    font-size: 15px;
+    text-indent: 30px; /*..........main1 part end*/
+}
+.main2{
+    width: 100%;
+    height:auto;
+    display:inline-block;
+    
+}
+
+.main2 .one{
+    width: 80%;
+    margin: auto;
+}
+.main2 .two{
+    width: 80%;
+    margin: auto;
+}
+}
+
+@media screen and (max-width:480px){
+    .checkbtn{
+        display: block;
+    }
+    .nev ul{
+        position: fixed;
+        width: 40%;
+        height: 40vh;
+        background-color:rgba(70, 66, 66, 0.726);
+        text-align: center;
+        top: 50px;
+        right:-100%;
+        border-radius: 8px 0px 8px 8px;
+        transition: all ease .5s;
+        
+    }
+    #check:checked ~ ul{
+        right: 45px;
+
+    }
+    .nev ul li{
+        display: block;
+      
+    }
+    .nev ul li a{
+        font-size: 15px;
+    }
+
+
+header{
+float: none;
+}
+.photo{
+  height: auto;
+    width: 100%;
+    
+
+}
+.photo img{
+    margin-top: 60px;
+    width:100%;
+    margin: auto;
+}
+
+.box input[type="submit"]{
+    border: 1px solid rgb(0, 255, 64);
+    margin-left: -60px;
+    
+}
+
+.main1 span{
+   margin-left: 30px;
+}
+.main .main2{
+
+    width: 100%;
+    display:inline-block;
+margin: auto;
+}
+.main2 .one{
+   
+    width: 80%;
+    margin: auto;
+}
+.main2 .pic{
+    width:100%;
+}
+
+
+
+
+
+.main2 .two{
+    width: 80%;
+    margin: auto;
+}
+.main2 .pic{
+    width:100%;
+    padding: 0;
+    margin: auto;
+ 
+}
+
+
+}

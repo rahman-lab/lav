@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+ 
+ *{
+     margin: 0px;
+     padding: 0px;
+ }
+ header{
+     background-color:white;
+     height: 100vh;
+     width:100%;
+ }
+ .nev{
+     height: 10vh;
+     width: auto;
+     background-color:white;
+     font-weight: bold;
+ }
+.nev ul{
+float: right;
+ 
+
+}
+.nev ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: cadetblue;
+    padding-top: ;
+    padding: 8px 25px;
+    border-radius: 5px;
+ 
+}
+.nev ul li a{
+    text-decoration: none;
+    color: black;
+    
+  
+   cursor: pointer;
+   
+}
+.nev ul li.active a{
+   
+    color: white;
+}
+.nev ul li a:hover{
+    
+    color: white;
+}
+
+ .nev .logo{
+     height: 55px;
+     width: 130px;
+     margin-top: 0px;
+     padding: 5px;
+ }
+
+.checkbtn{
+    font-size: 25px;
+    line-height: 50px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+#bar{
+    border: 1px solid rgb(233, 228, 228);
+    padding: 2px 4px;
+    background-color: rgba(245, 245, 245, 0.753);
+    box-shadow: 2px 2px gray;
+}
+
+ .photo{
+     height: 70vh;
+     width: 1365px;
+     margin-left: 150px;
+     margin-top: 55px;
+ }
+ .main{
+     height: 140vh;
+     width: auto;
+     background-color: white;
+ 
+    }
+.main .main1{
+    height: 30vh;
+    width: 900px;
+    padding: 30px;
+     margin-left:180px ;
+}
+.main .main1 span{
+    color: gray;
+}
+.main .main1 h2{
+    margin-top: 15px;
+}
+.main .main1 p{
+    color: gray;
+}
+.box{
+    margin-left: 80px;
+    margin-top: 10px;
+
+}
+.box input{
+    background-color: teal;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 4px;
+
+}
+.main2{
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+.main2 .one{
+    height: 400px;
+    width: 600px;
+    margin-left: 40px;
+    padding: 20px;
+}
+.main2 .two{
+    height: 400px;
+    width: 600px;
+    margin-left: 40px;
+    padding: 20px;
+}
+.main2 .pic{
+    height: 250px;
+    width: 500px;
+    margin-left: 40px;
+    margin-top: 12px;
+    
+}
+.main2 h2{
+    font-family: courier;
+}
+.main2 p{
+    color: gray;
+    font-family: tahoma;
+
+}
+.main2 a{
+    text-decoration: none;
+}
+.footer{
+    height: 12vh;
+    width: auto;
+ }
+.privicy{
+     display: inline-block;
+}
+.privicy a{
+     
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+ 
+     
+ }
+ .privicy a:hover{
+     color: gray;
+ }
+ .footer .privicy{
+     margin-left: 40px;
+     margin-top: 20px;
+ }
+ .follow{
+      float: right;
+     font-weight: bold;
+  display: flex;
+  margin-top: 40px;
+     
+  
+ }
+ .follow i{
+     color: black;
+     margin-top: 8px;
+     padding: 0%8px;
+ }
+ .follow i:hover{
+     opacity: 0.5;
+ }
+ .follow p{
+     margin-top: 5px;
+ }
+ 
